@@ -43,27 +43,7 @@ void delete_node_by_code(Node **head, int code);
 // ==========================================
 // MAIN 
 // ==========================================
-int main(void) {
-    // ------------------------------------------
-    // QUESTION 1: Product Struct & Functions
-    // ------------------------------------------
-    printf("==========================================\n");
-    printf("QUESTION 1: Create the Product Type\n");
-    printf("==========================================\n");
 
-    Product p1 = {"Laptop", 1001, 899.99};
-    Product p2 = {"Wireless Mouse", 1002, 25.50};
-
-    printf("--- Initial Product Records ---\n");
-    print_product(&p1);
-    print_product(&p2);
-
-    printf("Updating price of %s from $%.2f to $799.99...\n\n", p1.name, p1.price);
-    update_price(&p1, 799.99);
-
-
-    printf("--- Updated Record ---\n");
-    print_product(&p1);
 
 
     // ------------------------------------------
